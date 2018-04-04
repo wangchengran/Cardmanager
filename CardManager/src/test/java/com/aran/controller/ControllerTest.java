@@ -21,4 +21,10 @@ public class ControllerTest {
         User user = dao.selectUser(id);
         System.out.println(user.getUsername());
     }
+
+    @Test
+    public void tttt(){
+
+        System.out.println("六六六");
+    }
 }
