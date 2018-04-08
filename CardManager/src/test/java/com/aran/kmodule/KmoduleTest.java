@@ -21,7 +21,7 @@ public class KmoduleTest {
     @Test
     public void eeee(){
         Product product=new Product();
-        List<Product> list =new ArrayList<>();
+        List<Product> list =new ArrayList<Product>();
         product.setType(Product.GOLD);
         list.add(product);
        list= (List<Product>) kmoduleService.kmodule(list);

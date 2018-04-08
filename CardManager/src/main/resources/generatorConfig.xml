@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+
+<generatorConfiguration>
+    <!-- <properties resource="db.properties" /> -->
+    <classPathEntry location="/Users/wcr/.m2/repository/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar" />
+    <context id="mysql2Beans" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <!-- 删除代码中带有 代码生成器的注释信息 -->
+            <property name="suppressAllComments" value="false" />
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressDate" value="true" />
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/Test?useUnicode=true&amp;characterEncoding=utf-8"
+                        userId="root"
+                        password="root" />
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!-- 生成模型的包名和位置-->
+        <javaModelGenerator targetPackage="com.aran.model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com.aran.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <javaClientGenerator targetPackage="com.aran.dao" targetProject="src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <table tableName="admin" domainObjectName="Admin"></table>
+        <table tableName="admin_department" domainObjectName="AdminDepartment"></table>
+        <table tableName="user_account" domainObjectName="UserAccount"></table>
+        <table tableName="user_information" domainObjectName="UserInformation"></table>
+
+
+        <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名-->
+        <!--无论字段是什么类型，生成的类属性都是varchar -->
+        <!-- <table schema="btupayprod" tableName="T_INFO_MARKETING_CFG" enableSelectByExample="false"
+            enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="fasle">
+            </table> -->
+        <!-- <columnOverride column="AFTER_AMT" jdbcType="VARCHAR" /> -->
+        <!-- <table schema="btupayprod" tableName="t_log_online_payment" enableSelectByExample="false"
+            enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="fasle">
+            无论字段是什么类型，生成的类属性都是varchar <columnOverride column="AFTER_AMT" jdbcType="VARCHAR"
+            /> </table> -->
+
+        <!--<table schema="test" tableName="user_third" domainObjectName="LytUserThird" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"-->
+               <!--enableSelectByExample="false" selectByExampleQueryId="false"></table>-->
+
+        <!--<table schema="test" tableName="user_stat" domainObjectName="LytUserStat" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+        <!--</table>-->
+
+        <!--<table schema="test" tableName="user_relation" domainObjectName="LytUserRelation" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+        <!--</table>-->
+
+    </context>
+</generatorConfiguration>

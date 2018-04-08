@@ -49,28 +49,29 @@ public class CustomRealm extends AuthorizingRealm {
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-        // 获取身份信息
-        String username = (String) principals.getPrimaryPrincipal();
-        // 根据身份信息从数据库中查询权限数据
-
-
-        // 这里使用静态数据模拟
-        List<String> permissions = new ArrayList<>();
-        permissions.add("user:*");
-        permissions.add("department:*");
-
-
-
-        // 将权限信息封闭为AuthorizationInfo
-        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
-        // 模拟数据，添加 manager 角色
-        simpleAuthorizationInfo.addRole("manager");
-
-        for(String permission:permissions){
-            simpleAuthorizationInfo.addStringPermission(permission);
-        }
-
-        return simpleAuthorizationInfo;
+//        // 获取身份信息
+//        String username = (String) principals.getPrimaryPrincipal();
+//        // 根据身份信息从数据库中查询权限数据
+//
+//
+//        // 这里使用静态数据模拟
+//        List<String> permissions = new ArrayList<String>();
+//        permissions.add("user:*");
+//        permissions.add("department:*");
+//
+//
+//
+//        // 将权限信息封闭为AuthorizationInfo
+//        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
+//        // 模拟数据，添加 manager 角色
+//        simpleAuthorizationInfo.addRole("manager");
+//
+//        for(String permission:permissions){
+//            simpleAuthorizationInfo.addStringPermission(permission);
+//        }
+//
+//        return simpleAuthorizationInfo;
+        return  null;
     }
 
 

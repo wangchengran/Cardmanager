@@ -15,52 +15,11 @@
 <!--  中间内容  -->
 <div class="main_wrap">
     <div class="main clearfix">
-        <div class="left_layout" >
-            <!--   申请卡基本信息  -->
-            <div class="card_basic_infor">
-                <p class="c_tit">您选择的信用卡：</p>
-                <div class="card_pic"><img src=""></div>
-                <p class="card_name"></p>
-                <p class="card_intro"></p>
-            </div>
-            <!--   申请卡特色  -->
-            <div class="card_chara">
-                <ul class="chara_list" style="display:none">
-                    <li><span class="ch_icon"><img src="https://cdn.citiccard.hunshitong.net/citiccard/cardshop-web/images/sp_icon01.png" width="36" height="36"></span>
-                        <div class="ch_text">
-                            <p class="pl_2">独家首发<br />
-                                网上购物有积分</p>
-                        </div>
-                        <div class="c"></div>
-                    </li>
-                    <li><span class="ch_icon"><img src="https://cdn.citiccard.hunshitong.net/citiccard/cardshop-web/images/sp_icon02.png" width="36" height="36"></span>
-                        <div class="ch_text">
-                            <p class="pl_2">账单月交易超2000元<br>
-                                记双倍积分</p>
-                        </div>
-                        <div class="c"></div>
-                    </li>
-                    <li><span class="ch_icon"><img src="https://cdn.citiccard.hunshitong.net/citiccard/cardshop-web/images/sp_icon03.png" width="36" height="36"></span>
-                        <div class="ch_text">
-                            <p class="pl_1">最快一天拿卡</p>
-                        </div>
-                        <div class="c"></div>
-                    </li>
-                    <li><span class="ch_icon"><img src="https://cdn.citiccard.hunshitong.net/citiccard/cardshop-web/images/sp_icon04.png" width="36" height="36"></span>
-                        <div class="ch_text">
-                            <p class="pl_3">首年开卡刷卡1次，免
-                                首年年费，首年再刷5
-                                次免次年年费</p>
-                        </div>
-                        <div class="c"></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <div class="right_layout">
             <!--   申请卡进度 -->
             <div class="app_prog_bar apb_1">
-                <div class="app_prog_txt"><span class="pr_01 b_span">基本信息</span><span class="pr_02">详细信息</span><span class="pr_03">完成申请</span></div>
+                <div class="app_prog_txt"><span class="pr_01 b_span">基本信息</span><span class="pr_02">详细信息</span><span
+                        class="pr_03">完成申请</span></div>
             </div>
             <!--   申请卡内容 -->
             <div class="app_content">
@@ -70,7 +29,7 @@
                     <div class="tit_text">选择你喜欢的卡面</div>
                 </div>
                 <!--   表单 -->
-                <ul class="form_ul">
+                <ul class="form_ul1">
                     <li>
                         <div class="tit_105 lh_104">卡板：</div>
                         <div class="card_type" id="cardType"></div>
@@ -113,7 +72,7 @@
                     <div class="tit_text">填写初审信息<span class="t_span">（<em class="r_em">*</em>为必填项）</span></div>
                 </div>
                 <!--   表单 -->
-                <ul class="form_ul">
+                <ul class="form_ul2">
                     <li style="display:inline-block;">
                         <!--   姓名  -->
                         <div class="tit_105"><em class="r_em">*</em> 姓名：</div>
@@ -127,7 +86,8 @@
                             -->
                             <div class="form_tips"><span class="err_span"></span></div>
                         </div>
-                        <div class='succ_tips'><span class='succ_span name_error' style="visibility:hidden"></span></div>
+                        <div class='succ_tips'><span class='succ_span name_error' style="visibility:hidden"></span>
+                        </div>
                         <!--   拼音  -->
                         <div class="tit_105" style="width:69px"><em class="r_em">*</em> 拼音：</div>
                         <div class="f_box">
@@ -173,13 +133,14 @@
                         <div class="tit_105"><em class="r_em"> </em> 有效期：</div>
                         <div class="f_box">
                             <div class="input_box w_240">
-                                <input readonly id="limit_date_start" onblur="inputEventTry(this);" />
+                                <input readonly id="limit_date_start" onblur="inputEventTry(this);"/>
                             </div>
                             <div class="form_tips"><span class="err_span"></span></div>
                         </div>
                         <div class="f_box limit-end">
                             <!-- 身份证有效期 -->
-                            <select id="limit_date_len" class="input_box w_240" onchange="bindChoiceData();selectEventTry(this);" style="height: 30px">
+                            <select id="limit_date_len" class="input_box w_240"
+                                    onchange="bindChoiceData();selectEventTry(this);" style="height: 30px">
                                 <option value="">（选填）请选择有效时长</option>
                                 <option value="0">10年</option>
                                 <option value="1">20年</option>
@@ -224,7 +185,10 @@
                     </li>
                     <li>
                         <div class="tit_105"><em class="r_em">*</em> 短信验证码：</div>
-                        <div class="code_btn_box"><a class="code_btn" href="javascript:;" onClick="getPhoneCodeByAjax()">免费获取</a><span class="code_span" style="display:none;">60s后重新获取</span></div>
+                        <div class="code_btn_box"><a class="code_btn" href="javascript:;"
+                                                     onClick="getPhoneCodeByAjax()">免费获取</a><span class="code_span"
+                                                                                                  style="display:none;">60s后重新获取</span>
+                        </div>
                         <div class="f_box">
                             <div class="input_box w_385">
                                 <input id="code" name="code" type="text" value="" maxlength="6"/>
@@ -241,7 +205,10 @@
                     </li>
                     <li id="pic_code" style="display:none">
                         <div class="tit_105"><em class="r_em">*</em> 图形验证码：</div>
-                        <div class="code_btn_box" onClick="javascript:loadimage();" style="background-color: #ffffff; position: relative; width: 110px; height: 30px; line-height: 30px; text-align: center;" id="pic_text" title="点击图片换一张"><img id="randImage" src="../common/getPicCode.do" style="height: 100%; width: 100%;"></div>
+                        <div class="code_btn_box" onClick="javascript:loadimage();"
+                             style="background-color: #ffffff; position: relative; width: 110px; height: 30px; line-height: 30px; text-align: center;"
+                             id="pic_text" title="点击图片换一张"><img id="randImage" src="../common/getPicCode.do"
+                                                                style="height: 100%; width: 100%;"></div>
                         <div class="f_box">
                             <div class="input_box w_385">
                                 <input id="piccode" name="piccode" type="text" value="" maxlength="4"/>
@@ -258,32 +225,27 @@
                     </li>
                     <!--申请的方式，默认设置为：已有卡申请新卡  -->
                     <input id="type" name="type" value="havaCard" type="hidden" value=""/>
+                    <div class="form_btn_box" id="submit_btn"><a class="form_red_btn" href="javascript:;" id="submit"
+                                                                 onclick="window.location.href='${pageContext.request.contextPath}/user/addInformation'">下一步</a>
+                    </div>
                 </ul>
 
                 <div class="check_agree">
 	       	 <span class="input_span">
-	           <input id="check_submit" type="checkbox"  checked onclick="changeSubmit()">
+	           <input id="check_submit" type="checkbox" checked onclick="changeSubmit()">
 	         </span>
 
                     <span class="txt_span">我已阅读并清楚知晓
-	         	<a href="javascript:;" onclick="javascript:window.open('http://creditcard.ecitic.com/yongka/zhishi.shtml#kl_nav4');return false;" >《中信银行信用卡（个人卡）领用合约》</a>
+	         	<a href="javascript:;"
+                   onclick="javascript:window.open('http://creditcard.ecitic.com/yongka/zhishi.shtml#kl_nav4');return false;">《中信银行信用卡（个人卡）领用合约》</a>
 				        及该信用卡的相关信息。现金仅用于合理、合规的消费领取，不得进入生产经营及证券市场，股本经营性投资及房地产开发等非消费领域。
 			 </span>
-                    <span id="txt_span_jdhy" style="display:none">我已阅读并清楚知晓
-				<a href="javascript:;" onclick="javascript:window.open('http://creditcard.ecitic.com/yongka/zhishi.shtml#kl_nav4');return false;" >《中信银行信用卡（个人卡）领用合约》</a>
-				<a id="jdhy_contract" href="javascript:;" onclick="javascript:window.open('http://creditcard.ecitic.com/yongka/zhishi.shtml#kl_nav4');return false;" >《中信银行信用卡（个人卡）领用合约补充协议——中信易卡合约》</a>
-				        及该信用卡的相关信息。现金仅用于合理、合规的消费领取，不得进入生产经营及证券市场，股本经营性投资及房地产开发等非消费领域。根据相关政策要求，如您已持有我行I类借记账户，您获批的<span id="jdhy_prompt_card_name">中信易卡</span>借记账户将为Ⅱ类账户。借记账户使用条款以我行对外公示为准。
-			 </span>
-                    <span class="txt_span_xjb" style="display:none">我已阅读并清楚知晓
-	  			<a href="javascript:;" onclick="javascript:window.open('http://creditcard.ecitic.com/yongka/zhishi.shtml#kl_nav4');return false;" >《中信银行信用卡（个人卡）领用合约》</a>及
-				<a href="javascript:;" onclick="javascript:window.open('http://creditcard.ecitic.com/heyue/xianshangdai/xianjinfenqi.html');return false;" >《中信银行信用卡现金分期业务合约》</a>
-	 			  的相关信息。现金仅用于合理、合规的消费领域，不得进入生产经营及证券市场，股本经营性投资及房地产开发等非消费领域。
-			</span>
+
 
                 </div>
 
                 <!-- <div class="form_btn_box"><a class="form_red_btn" href="javascript:;" onClick="showPopBox('errPop')">下一步</a></div> -->
-                <div class="form_btn_box"  id="submit_btn" ><a  class="form_red_btn" href="javascript:;" id="submit" onclick="window.location.href='${pageContext.request.contextPath}/user/addInformation'">下一步</a></div>
+
 
 
             </div>
