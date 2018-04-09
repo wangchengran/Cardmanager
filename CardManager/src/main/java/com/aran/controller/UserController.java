@@ -1,11 +1,13 @@
 package com.aran.controller;
 
-import com.aran.service.UserService;
+import com.aran.model.UserInformation;
+import com.aran.service.UserInformationService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -15,8 +17,7 @@ public class UserController {
     private final static Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
-    private UserService userService;
-
+    private UserInformationService userInformationService;
 
     @RequestMapping("/index")
     public String toIndex(Model model) {
@@ -31,7 +32,9 @@ public class UserController {
     }
 
     @RequestMapping("/addInformation")
-    public String addInformation(){
+    public String addInformation(@ModelAttribute UserInformation userInformation){
+        logger.info("userInformation,{}",userInformation);
+        userInformationService.addInformation(userInformation);
 //        logger.info("保存用户申请信息");
         return "success";
     }

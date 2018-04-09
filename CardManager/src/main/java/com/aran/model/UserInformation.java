@@ -429,4 +429,23 @@ public class UserInformation {
     public void setSalary(Integer salary) {
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "UserInformation{" +
+                "id=" + id +
+                ", namecn='" + namecn + '\'' +
+                ", nameen='" + nameen + '\'' +
+                ", idNumber='" + idNumber + '\'' +
+                ", email='" + email + '\'' +
+                ", tel='" + tel + '\'' +
+                ", source=" + source +
+                ", adminId=" + adminId +
+                ", rankId=" + rankId +
+                ", education=" + education +
+                ", hasCar=" + hasCar +
+                ", hasHouse=" + hasHouse +
+                ", salary=" + salary +
+                '}';
+    }
 }
