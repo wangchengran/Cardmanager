@@ -96,4 +96,6 @@ public interface UserInformationMapper {
      */
     int updateByPrimaryKey(UserInformation record);
 
+    List<UserInformation> selectAllForms();
+
 }

@@ -395,4 +395,7 @@
       salary = #{salary,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectAllForms" resultMap="BaseResultMap">
+    SELECT * FROM user_information
+  </select>
 </mapper>

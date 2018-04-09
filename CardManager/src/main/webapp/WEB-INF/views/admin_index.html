@@ -4,65 +4,41 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <link href="style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="style/css/font-awesome.css" rel="stylesheet" type="text/css" />
-  <link href="style/css/index.css" rel="stylesheet" type="text/css" />
+  <link href="../../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="../../style/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <link href="../../style/css/index.css" rel="stylesheet" type="text/css" />
   <title>响应式导航设计</title>
   <script src="http://cdn.bootcss.com/jquery/2.1.1-rc2/jquery.min.js"></script>
-  <script src="js/tx/index.js"></script>
+  <script src="../../js/tx/index.js"></script>
+  <script type="text/javascript">
+    $(function(){
+        $("#user").click(function(){
+//            visible
+           window.location.href="/admin/forms";
+            $("#user-div").show()
+        })
+        $("#score").click(function(){
+            $("div[name='div-list']").hide();
+            $("#score-div").show();
+        })
+    })
+
+  </script>
 </head>
 <body>
 <div class="container">
   <div class="hidenav">
     <div class="navbody">
       <div class="navitems">
-        <a href="javascript:void(0);" onclick="showfloat(this)" class="btn">
-          <span class="icon icon-tasks"></span>
-          <span class="nav-text">应用</span>
+        <a id ="user" href="javascript:void(0);" onclick="showfloat(this)" class="btn">
+          <span class="icon icon-user"></span>
+          <span class="nav-text">用户管理</span>
         </a>
-        <div class="navfloat">
-          <div class="floatitems">
-            <a href="javascript:void(0);" class="btn btn-app btn-info">
-              <span class="icon icon-group"></span>
-              <span class="floattext">好友</span>
-            </a>
-          </div>
-          <div class="floatitems">
-            <a href="javascript:void(0);" class="btn btn-app btn-info">
-              <span class="icon icon-comments"></span>
-              <span class="floattext">消息</span>
-            </a>
-          </div>
-          <div class="floatitems">
-            <a href="javascript:void(0);" class="btn btn-app btn-info">
-              <span class="icon icon-hand-right"></span>
-              <span class="floattext">挠挠</span>
-            </a>
-          </div>
-          <div class="floatitems">
-            <a href="javascript:void(0);" class="btn btn-app btn-info">
-              <span class="icon icon-sitemap"></span>
-              <span class="floattext">群组</span>
-            </a>
-          </div>
-          <div class="floatitems">
-            <a href="javascript:void(0);" class="btn btn-app btn-info">
-              <span class="icon icon-book"></span>
-              <span class="floattext">书房</span>
-            </a>
-          </div>
-          <div class="floatitems">
-            <a href="javascript:void(0);" class="btn btn-app btn-info">
-              <span class="icon icon-coffee"></span>
-              <span class="floattext">聊吧</span>
-            </a>
-          </div>
-        </div>
       </div>
       <div class="navitems">
-        <a href="javascript:void(0);" class="btn">
-          <span class="icon icon-user"></span>
-          <span class="nav-text">访客</span>
+        <a id="score" href="javascript:void(0);" class="btn">
+          <span class="icon icon-tasks"></span>
+          <span class="nav-text">申请表单处理</span>
         </a>
       </div>
       <div class="navitems">
@@ -93,5 +69,10 @@
     </div>
   </div>
 </div>
-
+<div id="user-div" name="div-list" style="display: none">
+  <span>this is user list</span>
+</div>
+<div id="score-div" name="div-list" style="display: none">
+  <c:if
+</div>
 </body>

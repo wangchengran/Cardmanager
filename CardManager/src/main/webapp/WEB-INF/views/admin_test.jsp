@@ -240,5 +240,46 @@
 <%--</li>--%>
 <%--</ul>--%>
 <%--</div>--%>
+
+
+
+<div class="navfloat">
+    <div class="floatitems">
+        <a href="javascript:void(0);" class="btn btn-app btn-info">
+            <span class="icon icon-group"></span>
+            <span class="floattext">好友</span>
+        </a>
+    </div>
+    <div class="floatitems">
+        <a href="javascript:void(0);" class="btn btn-app btn-info">
+            <span class="icon icon-comments"></span>
+            <span class="floattext">消息</span>
+        </a>
+    </div>
+    <div class="floatitems">
+        <a href="javascript:void(0);" class="btn btn-app btn-info">
+            <span class="icon icon-hand-right"></span>
+            <span class="floattext">挠挠</span>
+        </a>
+    </div>
+    <div class="floatitems">
+        <a href="javascript:void(0);" class="btn btn-app btn-info">
+            <span class="icon icon-sitemap"></span>
+            <span class="floattext">群组</span>
+        </a>
+    </div>
+    <div class="floatitems">
+        <a href="javascript:void(0);" class="btn btn-app btn-info">
+            <span class="icon icon-book"></span>
+            <span class="floattext">书房</span>
+        </a>
+    </div>
+    <div class="floatitems">
+        <a href="javascript:void(0);" class="btn btn-app btn-info">
+            <span class="icon icon-coffee"></span>
+            <span class="floattext">聊吧</span>
+        </a>
+    </div>
+</div>
 </body>
 </html>
