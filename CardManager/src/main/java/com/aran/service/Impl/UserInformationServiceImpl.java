@@ -2,7 +2,6 @@ package com.aran.service.Impl;
 
 import com.aran.dao.UserInformationMapper;
 import com.aran.model.UserInformation;
-import com.aran.model.UserInformationExample;
 import com.aran.service.UserInformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

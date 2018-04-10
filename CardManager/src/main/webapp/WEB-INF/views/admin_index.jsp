@@ -84,7 +84,22 @@
     </div>
 </div>
 <div id="user-div" name="div-list" style="display: none">
-   <center> <span>this is user list</span></center>
+    <center>
+        <table id="table-user" class="imagetable" border="1" cellspacing="0" cellpadding="0" style="border:#d797ff ">
+            <tr style="background: #bce9ff">
+                <td style="width: 30px" ><center><input type="checkbox"></center></td>
+                <td style="height: 40px;width: 50px"><center><b>姓名</b></center></td>
+                <td style="height: 40px;width: 300px"><center><b>身份证号码</b></center></td>
+            </tr>
+            <c:forEach var="form" items="${formList}">
+                <tr>
+                    <td style="width: 30px"><center><input type="checkbox"></center></td>
+                    <td style="height: 30px; width: 50px"><center>${form.namecn}</center></td>
+                    <td style="height: 30px; width: 300px"><center>${form.idNumber}</center></td>
+                </tr>
+            </c:forEach>
+
+        </table>
 </div>
 <div id="score-div" name="div-list" style="display: none">
     <center>
