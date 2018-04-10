@@ -20,7 +20,7 @@ public class CookieUtil {
      * @param response
      * @param cookieMaxAge
      */
-    public static void setCookie(HttpServletResponse response, String cookieValue, int cookieMaxAge){
+    public static void setCookie(HttpServletResponse response,String cookieValue, int cookieMaxAge){
         String hmac= getHmac(cookieValue, COOKIE_KEY);
         addCookie(response, COOKIE_USER, hmac2CookieValue(cookieValue, hmac), cookieMaxAge, "/");
     }

@@ -7,36 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2940da92-3998-4830-946f-5fbb046783ed" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/dao/UserAccountMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/dao/UserAccountMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/dao/UserInformationMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/dao/UserInformationMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/model/UserAccount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/model/UserAccountExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/model/UserInformation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/aran/model/UserInformationExample.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/dao/UserAccountMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/dao/UserAccountMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/dao/UserInformationMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/dao/UserInformationMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformation.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample$Criteria.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample$Criterion.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/model/UserInformationExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/service/Impl/UserInformationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/service/Impl/UserInformationServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/dao/UserAccountMapper.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/dao/UserAccountMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/dao/UserInformationMapper.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/dao/UserInformationMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformation.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample$Criteria.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample$Criterion.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/model/UserInformationExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/service/Impl/UserInformationServiceImpl.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/service/Impl/UserInformationServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_36.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/aran/model/LoginBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/com/aran/controller/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/controller/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/CardManager_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CardManager_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aran/service/Impl/UserInformationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/aran/service/Impl/UserInformationServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aran/dao/UserInformationMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/aran/dao/UserInformationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/dao/UserInformationMapper.xml" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/classes/com/aran/dao/UserInformationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/views/admin_index.jsp" afterPath="$PROJECT_DIR$/target/mybatis_generator/WEB-INF/views/admin_index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CardManager.iml" afterPath="$PROJECT_DIR$/CardManager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aran/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/aran/controller/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aran/util/CookieUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/aran/util/CookieUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,14 +45,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="21">
+              <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/util/CookieUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1081">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,6 +72,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="192" column="20" lean-forward="true" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -97,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInformationServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInformationServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/service/Impl/UserInformationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -107,6 +107,16 @@
                 <element signature="e#673#674#0" expanded="true" />
                 <element signature="e#734#735#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,19 +138,6 @@
               <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,8 +182,8 @@
         <option value="spring-beans.schema" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -221,6 +218,7 @@
       <find>select</find>
       <find>imagetable</find>
       <find>table</find>
+      <find>set</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -240,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
@@ -257,7 +254,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aran/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/util/SHAUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/util/Base64.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aran/util/CookieUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/aran/util/UtilTest.java" />
@@ -274,7 +270,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applyCard.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/dao/AdminDepartmentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/model/UserInformation.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applyCard.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" />
@@ -287,10 +282,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aran/dao/UserAccountMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/service/Impl/UserInformationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/service/UserInformationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aran/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/dao/UserInformationMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aran/dao/UserInformationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aran/util/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aran/model/LoginBean.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aran/controller/AdminController.java" />
       </list>
     </option>
   </component>
@@ -378,134 +376,6 @@
             <path>
               <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aran" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aran" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aran" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aran" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aran" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aran" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="tx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CardManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1008,7 +878,7 @@
       <workItem from="1523263416558" duration="598000" />
       <workItem from="1523264194973" duration="458000" />
       <workItem from="1523264731806" duration="744000" />
-      <workItem from="1523265781093" duration="5447000" />
+      <workItem from="1523265781093" duration="8324000" />
     </task>
     <servers />
   </component>
@@ -1045,7 +915,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90096000" />
+    <option name="totallyTimeSpent" value="92973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,7 +1015,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1154,46 +1024,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="136" column="16" lean-forward="false" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/util/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/util/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3679">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/util/SHAUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1327,14 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="179" column="15" lean-forward="false" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,24 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1590,6 +1399,80 @@
             <element signature="imports" expanded="true" />
             <element signature="e#673#674#0" expanded="true" />
             <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/util/SHAUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/model/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.36/fastjson-1.1.36-sources.jar!/com/alibaba/fastjson/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="192" column="20" lean-forward="true" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/util/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1081">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aran/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

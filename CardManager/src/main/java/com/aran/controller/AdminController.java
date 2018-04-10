@@ -1,9 +1,12 @@
 package com.aran.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.aran.model.Admin;
+import com.aran.model.LoginBean;
 import com.aran.model.UserInformation;
 import com.aran.service.AdminService;
 import com.aran.service.UserInformationService;
+import com.aran.util.CookieUtil;
 import com.aran.util.SHAUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +16,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @Controller
@@ -40,11 +45,16 @@ public class AdminController {
     }
 
     @RequestMapping("dologin")
-    public String doLogin(@ModelAttribute Admin admin){
+    public String doLogin(@ModelAttribute Admin admin, HttpServletRequest request, HttpServletResponse response){
         String username=admin.getUsername();
         String password=admin.getPassword();
         Admin admin1=adminService.selectUserByName(username);
         if(admin1!=null && admin1.getPassword().equals(SHAUtil.SHA256(password))){
+            LoginBean loginBean=new LoginBean();
+            loginBean.setUsername(username);
+            loginBean.setPassword(password);
+            String cookieValue=JSON.toJSONString(loginBean);
+            CookieUtil.setCookie(response,cookieValue,60*60*24);
             return "admin_index";
         }
         return "login";
